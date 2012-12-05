@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PivotViewerDemo", "PivotViewerDemo\PivotViewerDemo.csproj", "{5F09815A-D0F5-4890-B081-21D4628D67F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PivotViewerDemo.Web", "PivotViewerDemo.Web\PivotViewerDemo.Web.csproj", "{44D1D50B-FDB0-4AD5-8776-0B2C73D54A30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5A10DE5E-80A9-45BB-B00F-0CC6675B1202}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F09815A-D0F5-4890-B081-21D4628D67F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F09815A-D0F5-4890-B081-21D4628D67F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F09815A-D0F5-4890-B081-21D4628D67F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F09815A-D0F5-4890-B081-21D4628D67F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D1D50B-FDB0-4AD5-8776-0B2C73D54A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D1D50B-FDB0-4AD5-8776-0B2C73D54A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D1D50B-FDB0-4AD5-8776-0B2C73D54A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D1D50B-FDB0-4AD5-8776-0B2C73D54A30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
